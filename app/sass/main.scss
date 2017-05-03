@@ -131,7 +131,6 @@
   .portfolio__profile-name {
     padding-top: 0;
     padding-bottom: 30px;
-    // margin-bottom: 40px;
 
     p {
       margin-top: 10px;
@@ -236,32 +235,6 @@
     box-shadow: 0px 2px 0px 0px rgba(0,0,0,.1);
   }
 
-  .language-toggle {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-
-    span {
-      cursor: pointer;
-      font-size: 16px;
-      font-weight: 600;
-      text-transform: uppercase;
-    }
-
-    span:last-child {
-      margin-left: 13px;
-    }
-
-    span.active {
-      color: #70b8dd;
-    }
-
-    span:hover {
-      text-decoration: underline;
-    }
-
-  }
-
   .profile__skills-wrapper {
     margin: 15px 0 25px;
     position: relative;
@@ -286,12 +259,8 @@
     width: 157px;
     height: 157px;
     background-repeat: no-repeat;
-    // animation: rotate_ellipse 6s linear infinite reverse;
   }
 
-  // @keyframes rotate_ellipse {
-  //   100% { transform: rotate(-360deg); }
-  // }
 
   .html-skill {
     background: url('../images/ellipses.png') no-repeat -160px -1px;
@@ -343,9 +312,55 @@
       b {
         font-size: 18px;
         font-weight: 600;
+
+        a {
+          color: inherit;
+        }
       }
     }
   }
+
+  .html-color {
+    color: #ff6200;
+  }
+
+  .css-color {
+    color: #0089ce;
+  }
+
+  .js-color {
+    color: #fdb100;
+  }
+
+  .less-color {
+    color: #6d8dbc;
+  }
+
+  .sass-color {
+    color: #ff3231;
+  }
+
+  .jquery-color {
+    color: #0769ad;
+  }
+
+  .gulp-color {
+    color: #cf4647;
+  }
+  
+  .pug-color {
+    color: #a86454;
+  }
+
+  .github-color {
+    color: #24292e;
+  }
+
+  .docker-color {
+    color: #306a8a;
+  }
+
+
 
   .html .percent-lines div {
     background-color: #ec6c04;
@@ -372,177 +387,227 @@
   }
 
 
-
   .percent-lines {
 
     div {
       position: absolute;
-      top: 12px;
-      left: 59px;
       width: 3px;
       height: 14px;
       background-color: #e7e7e7;
       border-radius: 3px;
+      // transition: .35s;
+      opacity: 0;
     }
+
+    div.grey {
+      background-color: #e7e7e7;
+    }
+
+    div:first-child {
+      top: 12px;
+      left: 59px;
+      animation: opacity_line .2s ease 1s 1 normal forwards;
+    }
+
 
     div:nth-child(2) {
       top: 14px;
       left: 70px;
       transform: rotate(18deg);
+      animation: opacity_line .2s ease 1.1s 1 normal forwards;
     }
 
     div:nth-child(3) {
       top: 18px;
       left: 79px;
       transform: rotate(35deg);
+      animation: opacity_line .2s ease 1.2s 1 normal forwards;
     }
 
     div:nth-child(4) {
       top: 24px;
       left: 87px;
       transform: rotate(50deg);
+      animation: opacity_line .2s ease 1.4s 1 normal forwards;
     }
 
     div:nth-child(5) {
       top: 32px;
       left: 92px;
       transform: rotate(67deg);
+      animation: opacity_line .2s ease 1.6s 1 normal forwards;
     }
 
     div:nth-child(6) {
       top: 41px;
       left: 95px;
       transform: rotate(79deg);
+      animation: opacity_line .2s ease 1.8s 1 normal forwards;
     }
 
     div:nth-child(7) {
       top: 51px;
       left: 96px;
       transform: rotate(90deg);
+      animation: opacity_line .2s ease 2s 1 normal forwards;
     }
 
     div:nth-child(8) {
       top: 60px;
       left: 95px;
       transform: rotate(100deg);
+      animation: opacity_line .2s ease 2.2s 1 normal forwards;
     }
 
     div:nth-child(9) {
       top: 69px;
       left: 92px;
       transform: rotate(114deg);
+      animation: opacity_line .2s ease 2.4s 1 normal forwards;
     }
 
     div:nth-child(10) {
       top: 77px;
       left: 87px;
       transform: rotate(128deg);
+      animation: opacity_line .2s ease 2.6s 1 normal forwards;
     }
 
     div:nth-child(11) {
       top: 84px;
       left: 79px;
       transform: rotate(146deg);
+      animation: opacity_line .2s ease 2.8s 1 normal forwards;
     }
 
     div:nth-child(12) {
       top: 89px;
       left: 70px;
       transform: rotate(162deg);
+      animation: opacity_line .2s ease 3s 1 normal forwards;
     }
 
     div:nth-child(13) {
       top: 91px;
       left: 60px;
       transform: rotate(180deg);
+      animation: opacity_line .2s ease 3.2s 1 normal forwards;
     }
 
     div:nth-child(14) {
       top: 90px;
       left: 50px;
       transform: rotate(195deg);
+      animation: opacity_line .2s ease 3.4s 1 normal forwards;
     }
 
     div:nth-child(15) {
       top: 86px;
       left: 40px;
       transform: rotate(210deg);
+      animation: opacity_line .2s ease 3.6s 1 normal forwards;
     }
 
     div:nth-child(16) {
       top: 80px;
       left: 31px;
       transform: rotate(225deg);
+      animation: opacity_line .2s ease 3.8s 1 normal forwards;
     }
 
     div:nth-child(17) {
       top: 71px;
       left: 24px;
       transform: rotate(240deg);
+      animation: opacity_line .2s ease 4s 1 normal forwards;
     }
 
     div:nth-child(18) {
       top: 61px;
       left: 20px;
       transform: rotate(255deg);
+      animation: opacity_line .2s ease 4.2s 1 normal forwards;
     }
 
     div:nth-child(19) {
       top: 51px;
       left: 19px;
       transform: rotate(270deg);
+      animation: opacity_line .2s ease 4.4s 1 normal forwards;
     }
 
     div:nth-child(20) {
       top: 41px;
       left: 20px;
       transform: rotate(285deg);
+      animation: opacity_line .2s ease 4.6s 1 normal forwards;
     }
 
     div:nth-child(21) {
       top: 31px;
       left: 24px;
       transform: rotate(300deg);
+      animation: opacity_line .2s ease 4.8s 1 normal forwards;
     }
 
     div:nth-child(22) {
       top: 22px;
       left: 30px;
       transform: rotate(315deg);
+      animation: opacity_line .2s ease 5s 1 normal forwards;
     }
 
     div:nth-child(23) {
       top: 16px;
       left: 39px;
       transform: rotate(330deg);
+      animation: opacity_line .2s ease 5.2s 1 normal forwards;
     }
 
     div:nth-child(24) {
       top: 13px;
       left: 49px;
       transform: rotate(350deg);
+      animation: opacity_line .2s ease 5.4s 1 normal forwards;
     }
 
   }
 
+  @keyframes opacity_line {
+    0% {
+      opacity: 0;
+    };
+    100% {
+      opacity: 1;
+    };
+  }
+
+  p.skill__percentage-wrap {
+    position: absolute;
+    top: 84px;
+    left: 63px;
+    z-index: 10;
+    color: #363b43;
+    font-size: 22px;
+    font-weight: 700;
+  }
 
 
+/* Works and works preview */
 
+  .works-wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .work-preview {
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+  }

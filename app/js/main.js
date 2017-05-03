@@ -2,21 +2,24 @@ $(function () {
   
   'use strict'
 
-  var d          = document,
-      skilsLines = d.getElementsByClassName('percent-lines'),
+  // Animate counter numbers
 
-      /* Methods */
-      addDiv =  function () { 
-        var div = d.createElement('div');
-        return  div;
-      };
+  setTimeout( function () {
+    var arrNum = [0, 80, 82, 65, 87, 84, 63],
+        speed = 4600;
 
-  for (var i = 0; i < skilsLines.length; i++ ) {
+    for ( var i = 1; i <= 6 ; i++ ) {
 
-    for (var j = 0; j < 24; j++ ) {
-      skilsLines[i].appendChild(addDiv());
+      $('#num_' + i).animate({ num: arrNum[i] - 1/* - begin */ }, {
+        duration: speed,
+        step: function (num){
+          this.innerHTML = (num + 1).toFixed(0) + '%';
+        }
+      });
     }
-  }
+  }, 1000);
 
+
+//---------------
 });
 
