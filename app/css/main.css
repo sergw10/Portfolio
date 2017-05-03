@@ -157,22 +157,6 @@ body {
   -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); }
 
-.language-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px; }
-  .language-toggle span {
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase; }
-  .language-toggle span:last-child {
-    margin-left: 13px; }
-  .language-toggle span.active {
-    color: #70b8dd; }
-  .language-toggle span:hover {
-    text-decoration: underline; }
-
 .profile__skills-wrapper {
   margin: 15px 0 25px;
   position: relative; }
@@ -231,6 +215,38 @@ body {
     .experince__wrapper p b {
       font-size: 18px;
       font-weight: 600; }
+      .experince__wrapper p b a {
+        color: inherit; }
+
+.html-color {
+  color: #ff6200; }
+
+.css-color {
+  color: #0089ce; }
+
+.js-color {
+  color: #fdb100; }
+
+.less-color {
+  color: #6d8dbc; }
+
+.sass-color {
+  color: #ff3231; }
+
+.jquery-color {
+  color: #0769ad; }
+
+.gulp-color {
+  color: #cf4647; }
+
+.pug-color {
+  color: #a86454; }
+
+.github-color {
+  color: #24292e; }
+
+.docker-color {
+  color: #306a8a; }
 
 .html .percent-lines div {
   background-color: #ec6c04; }
@@ -495,3 +511,19 @@ p.skill__percentage-wrap {
   color: #363b43;
   font-size: 22px;
   font-weight: 700; }
+
+/* Works and works preview */
+.works-wrapper {
+  margin-top: 20px;
+  text-align: center; }
+
+.work-preview {
+  width: 30%;
+  height: 300px;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); }
