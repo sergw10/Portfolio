@@ -50,6 +50,11 @@ textarea:focus {
   content: '';
   clear: both; }
 
+.alert-message {
+  color: red;
+  font-size: 1.5em;
+  margin-bottom: 15px; }
+
 /* Main styles */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -89,7 +94,9 @@ body {
           border-radius: 50%;
   overflow: hidden; }
   .portfolio__profile-img-wrapper img {
-    width: 100%; }
+    position: relative;
+    left: -50px;
+    width: 180%; }
 
 .portfolio__profile-name {
   padding-top: 0;
