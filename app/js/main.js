@@ -18,6 +18,16 @@ $(function () {
       });
     }
   }, 1000);
+  
+
+  // Lazy load
+
+  $(function() {
+    $("img.lazy").lazyload({
+      threshold : 200,
+      effect : "fadeIn"
+    });
+  });
 
 
 //---------------
