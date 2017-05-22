@@ -77,7 +77,6 @@
 
   body {
     font-family: 'Open Sans', sans-serif;
-    min-width: 830px;
     font-size: 13px;
     line-height: 1.154;
     font-weight: 400;
@@ -92,6 +91,7 @@
 // Profile info
 
   .portfolio__profile-info {
+    overflow: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -608,20 +608,20 @@
 /* Works and works preview */
 
   .works-wrapper {
-    margin-top: 20px;
+    margin: 20px 0;
     text-align: center;
   }
 
   .work-preview {
     width: 30%;
-    margin: 1%;
+    margin: 1% 1% 2%;
     display: inline-block;
     vertical-align: top;
     border-radius: 4px;
     line-height: 1;
-    -webkit-box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.5);
-    -moz-box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.5);
-    box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.3);
+    box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.3);
 
     img {
       width: 100%;
@@ -678,9 +678,9 @@
   }
 
   .work-preview {
-    -webkit-box-shadow: 1px 1px 20px 2px rgba(0,0,0,.5);
-    -moz-box-shadow: 1px 1px 20px 2px rgba(0,0,0,.5);
-    box-shadow: 1px 1px 20px 2px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 1px 20px 2px rgba(0,0,0,.3);
+    -moz-box-shadow: 1px 1px 20px 2px rgba(0,0,0,.3);
+    box-shadow: 1px 1px 20px 2px rgba(0,0,0,.3);
   }
 }
 
@@ -688,7 +688,7 @@
 @media screen and ( max-width: 900px ) {
 
   .portfolio__profile-info {
-    width: 250px;
+    width: 270px;
   }
 
   .main-section {
@@ -701,4 +701,9 @@
   }
 }
 
-@media screen and ( max-width: 900px ) {}
+@media screen and ( max-width: 810px ) {
+
+  .work-preview {
+    width: 85%;
+  }
+}
