@@ -27,7 +27,7 @@ $(function () {
   //-------------------------------------
 
    
-  for (let j = 0; j < 24; j++) {
+  for (var j = 0; j < 24; j++) {
     $('.percent-lines').append('<div></div>');
   }
 
@@ -35,14 +35,14 @@ $(function () {
       linesWrapText = '.percent-lines',
       linesWrap = queryAll(linesWrapText);
 
-  for (let i = 0; i < 6; i++) {
+  for (var i = 0; i < 6; i++) {
     
     var arrAllLines = linesWrap[i].childNodes,
         numGreyLines = arrOfGreyLines[i],
         arrAllLinesCopy = Array.prototype.slice.call(arrAllLines),
         arrOfGreyLinesChange = arrAllLinesCopy.slice(-numGreyLines);
 
-        for (let l = 0; l < numGreyLines; l++) {
+        for (var l = 0; l < numGreyLines; l++) {
           arrOfGreyLinesChange[l].style.backgroundColor = '#e7e7e7';
         }
   }
