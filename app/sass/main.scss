@@ -118,6 +118,39 @@
     }
   }
 
+  .portfolio__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+
+    div {
+      width: 29px;
+      height: 3px;
+      background-color: #ffffff;
+      margin: 6px auto;
+    }
+
+    div:first-child.active,
+    div:nth-child(2).active {
+      position: absolute;
+      margin: 0;
+    }
+
+    div:first-child.active {
+      transform: rotate(-225deg);
+      top: 16px;
+      left: 5px;
+    }
+
+    div:nth-child(2).active {
+      transform: rotate(225deg);
+      top: 16px;
+      left: 5px;
+    }
+  }
+
   .portfolio__profile-img-wrapper {
     width: 150px;
     height: 150px;
@@ -684,6 +717,13 @@
   }
 }
 
+@media screen and ( max-width: 960px ) {
+
+  .work-preview {
+    width: 96%;
+    margin-bottom: 20px;
+  }
+}
 
 @media screen and ( max-width: 900px ) {
 
@@ -693,17 +733,5 @@
 
   .main-section {
     padding: 0 15px 0 280px;
-  }
-
-  .work-preview {
-    width: 70%;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and ( max-width: 810px ) {
-
-  .work-preview {
-    width: 85%;
   }
 }
