@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Broochy</title>
+  <style type="text/css">
+
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      margin: 0 auto;
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      background: #eaeaea;
+    }
+
+    .email-wrap {
+      width: 660px;
+      margin: 0 auto;
+    }
+
+    .table-normalise {
+      width: 100%;
+      border: 0;
+      margin: 0;
+      padding: 20px 28px;
+      background: #ffffff;
+    }
+
+    .menu span {
+      border-right: 2px solid #dfdede;
+    }
+
+    .menu span a {
+      margin-right: 7px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .menu span:last-child {
+      border: 0;
+    }
+
+    .menu span a:hover {
+      text-decoration: underline;
+    }
+
+    .main-img img {
+      width: 100%;
+    }
+
+    .text-grey {
+      color: #aeadad;
+    }
+
+    .text-grey span {
+      display: inline-block;
+      width: 70%;
+    }
+
+    a.button-link {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+      padding: 7px 17px;
+      text-decoration: none;
+      background: #030104;
+    }
+
+    .black-text {
+      color: #0a1318;
+    }
+
+    .top-picks {
+      font-size: 28px;
+      font-weight: 900;
+    }
+
+    .clothing-wrap {
+      width: 32.7%;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .clothing-wrap a {
+      margin-bottom: 10px;
+    }
+
+    .clothing-wrap a,
+    .clothing-wrap a img {
+      display: inline-block;
+      width: 100%;
+      max-height: 192px;
+    }
+
+    .clothing-wrap a.button-link {
+      width: auto;
+      margin-bottom: 0;
+    }
+
+    .clearfix:after {
+      display: table;
+      content: '';
+      clear: both;
+    }
+
+    .clothing-center {
+      margin: 0 1%;
+    }
+
+    .price-name-wrap {
+      font-size: 12px;
+      text-align: left;
+      width: 100%;
+    }
+
+    .clothing-name {
+      width: 68%;
+      display: inline-block;
+      text-transform: uppercase;
+      float: left;
+    }
+
+    .price {
+      width: 31%;
+      display: inline-block;
+      text-align: right;
+      float: right;
+    }
+
+    .annotation-text {
+      text-align: left;
+      font-size: 12px;
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .grey-background {
+      background: #f4f4f4;
+      padding: 10px 0;
+    }
+
+    .subscribe-text,
+    .location-text {
+      display: block;
+      width: 80%;
+      font-size: 11px;
+      margin: 0 auto;
+    }
+
+    .subscribe-text {
+      color: #9b9b9b;
+      margin-bottom: 10px;
+    }
+
+    .unsubscribe-link {
+      text-decoration: underline;
+      color: #1f1ffe;
+    }
+
+    .orange-link {
+      color: #fc9e5f;
+    }
+
+    .location-text {
+      color: #6d6d6d;
+    }
+
+    @media screen and ( max-width: 678px) {
+      
+      .email-wrap {
+        width: 100%;
+      }
+
+      .clothing-wrap {
+        margin: 15px auto 60px;
+        width: 60%;
+        display: block;
+        text-align: left;
+      }
+
+      .clothing-wrap a, 
+      .clothing-wrap a img {
+        max-height: none;
+      }
+
+      .price-name-wrap {
+        font-size: 18px;
+        margin-bottom: 7px;
+      }
+
+      .annotation-text {
+        font-size: 15px;
+      }
+    }
+
+    @media screen and ( max-width: 580px) {
+
+      .clothing-name,
+      .price {
+        width: auto;
+      }
+    }
+
+    @media screen and ( max-width: 545px) {
+
+      .price-name-wrap {
+        font-size: 16px;
+      }
+
+      .annotation-text {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and ( max-width: 545px) {
+
+      .menu span a {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        display: inline-block;
+      }
+
+      .price-name-wrap {
+        font-size: 14px;
+      }
+
+      .annotation-text {
+        font-size: 12px;
+      }
+    }
+
+    @media screen and ( max-width: 450px) {
+
+      .clothing-wrap {
+        width: 80%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="email-wrap">
+    <table class="table-normalise" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="text-align: center">
+          <img src="img/logo.jpg" alt="">
+        </td>
+      </tr>
+      <tr style="height: 30px"></tr>
+      <tr>
+        <td style="text-align: center" class="menu">
+          <span><a class="black-text" href="#">CLOTHING</a></span>
+          <span><a class="black-text" href="#">SHOES</a></span>
+          <span><a class="black-text" href="#">VINTAGE</a></span>
+          <span><a class="black-text" href="#">ACCESSORIES</a></span>
+          <span><a class="black-text" href="#">SALES</a></span>
+        </td>
+      </tr>
+      <tr style="height: 25px"></tr>
+      <tr>
+        <td class="main-img" style="text-align: center">
+          <img src="img/mans.jpg" alt="">
+        </td>
+      </tr>
+      <tr style="height: 27px"></tr>
+      <tr>
+        <td style="text-align: center" class="text-grey">
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta totam eaque voluptatum vero quidem impedit.
+          </span>
+        </td>
+      </tr>
+      <tr style="height: 20px"></tr>
+      <tr>
+        <td style="text-align: center;">
+          <a class="button-link" href="#">SHOP NOW</a>
+        </td>
+      </tr>
+      <tr style="height: 37px"></tr>
+      <tr>
+        <td style="text-align: center">
+          <span class="black-text top-picks">TOP PICKS</span>
+        </td>
+      </tr>
+      <tr style="height: 13px"></tr>
+      <tr>
+        <td>
+          <div class="clothing-wrap">
+            <a href="#"><img src="img/jacket.jpg" alt=""></a>
+            <span class="clearfix price-name-wrap" style="display: inline-block; font-weight: 700">
+              <span class="black-text clothing-name">KöRO CLOTHING GO</span>
+              <span class="black-text price">29.95 AUD</span>
+            </span>
+            <span class="text-grey annotation-text" style="display: inline-block">Vex Tee White</span>
+            <a class="button-link" href="#">SHOP NOW</a>
+          </div>
+
+          <div class="clothing-wrap">
+            <a href="#"><img src="img/shoes.jpg" alt=""></a>
+            <span class="clearfix price-name-wrap" style="display: inline-block; font-weight: 700">
+              <span class="black-text clothing-name">GOODWIN SMITH</span>
+              <span class="black-text price">70.00 GBP</span>
+            </span>
+            <span class="text-grey annotation-text" style="display: inline-block">Higham Black</span>
+            <a class="button-link" href="#">SHOP NOW</a>
+          </div>
+
+          <div class="clothing-wrap">
+            <a href="#"><img src="img/jeans.jpg" alt=""></a>
+            <span class="clearfix price-name-wrap" style="display: inline-block; font-weight: 700">
+              <span class="black-text clothing-name">UNDERATED</span>
+              <span class="black-text price">47.50 GBP</span>
+            </span>
+            <span class="text-grey annotation-text" style="display: inline-block">JN152 Distressed...</span>
+            <a class="button-link" href="#">SHOP NOW</a>
+          </div>
+        </td>
+      </tr>
+      <tr style="height: 60px"></tr>
+      <tr>
+        <td class="grey-background" style="text-align: center">
+          <span class="subscribe-text">We are sending you this email because you subscribed to our newsletter or made a transaction online. We'll be sad to see you go, but you can always <a href="#" class="unsubscribe-link">Unsubscribe from our email</a></span>
+          <span class="location-text"> Customer Service ( 9 - 18 CET): US +1 888-30145-497 | UK +44 800-0868-704 or <a href="#" class="orange-link">Broochy.com</a></span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>

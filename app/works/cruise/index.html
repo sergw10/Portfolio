@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="css/bootstrap.css" rel="stylesheet">
+    	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+    	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Polyarix-Test | Rubezhin S</title>
+	</head>
+	<body id="body">
+
+	<!-- HEAD comment -->
+		<div class="container media">
+			<div class="row">
+				<div class="comment-item col-lg-4 col-lg-offset-8">
+				<!-- User ciment -->
+					<div class="user-content">
+						<div class="tail"></div>
+						<div class="user-comment">amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+						<div class="user-time">3 mins ago</div>
+					</div>
+				<!-- User img -->
+					<div class="user-img"></div>
+				</div>
+			</div>
+		</div>
+
+	<!-- MAIN Price -->
+		<div class="container price">
+			<div class="row">
+			
+				<div class="price-item first">
+					<div class="pop"></div>
+					<div class="license none"></div>
+					<div class="price-block top-radius">FEATURES</div>
+					<div class="stuff black">Who Wouldn’t Want <br>These Awesome Stuffs!</div>
+					<div class="lorem">
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum Dorel</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="button">
+							<button>Sign Up</button>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="price-item second">
+					<div class="pop"></div>
+					<div class="license opac">
+						<p>SINGLE LICENSE</p>
+						<p>Great for individuals</p>
+					</div>
+					<div class="price-block">FREE</div>
+					<div class="stuff arms">You Literally Have <br>Access To Everything!</div>
+					<div class="lorem">
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum Dorel</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="button">
+							<button>Sign Up</button>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="price-item third">
+					<div class="pop red"><div class="icon"></div>Most popular<div class="icon i-right"></div></div>
+					<div class="license">
+						<p>EXTENDED LICENSE</p>
+						<p>Great for small business</p>
+					</div>
+					<div class="price-block">$195</div>
+					<div class="stuff girls">Unlimited Telephonic <br>Support</div>
+					<div class="lorem">
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum Dorel</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="button">
+							<button class="gold">Sign Up</button>
+							<div class="arrow arrow-gold"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="price-item last">
+					<div class="pop"></div>
+					<div class="license opac">
+						<p>MEMBERSHIP</p>
+						<p>Great for all business</p>
+					</div>
+					<div class="price-block">$245</div>
+					<div class="stuff people">You Literally Have <br>Access To Everything!</div>
+					<div class="lorem">
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum Dorel</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="text-lorem"><div class="ok"></div>Lorem Ipsum</div>
+						<div class="button">
+							<button>Sign Up</button>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+   		<script type="text/javascript">
+   			var d = document,
+   				body = d.getElementById("body"),
+				lorem = d.getElementsByClassName("lorem");
+
+				for (let i = 0; i < lorem.length; i++) {
+					lorem[i].addEventListener("mouseover", heightBig);
+					lorem[i].addEventListener("mouseout", heightSmall);
+				}
+
+				function heightBig () {
+					var w = body.clientWidth;
+					if (w > 900) {
+						this.style.height = "296px";
+					}
+				};
+
+				function heightSmall () {
+					var w = body.clientWidth;
+					if (w > 900) {
+						this.style.height = "266px";
+					}
+				};
+   		</script>
+	</body>
+</html>

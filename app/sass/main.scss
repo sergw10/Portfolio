@@ -646,6 +646,8 @@
   }
 
   .work-preview {
+    transition: .25s;
+    cursor: pointer;
     width: 30%;
     margin: 1% 1% 2%;
     display: inline-block;
@@ -656,9 +658,18 @@
     -moz-box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.3);
     box-shadow: 5px 1px 20px 2px rgba(0,0,0,0.3);
 
-    img {
+    a {
       width: 100%;
+      display: inline-block;
+  
+      img {
+        width: 100%;
+      }
     }
+  }
+
+  .work-preview:hover {
+    transform: scale(1.08);
   }
 
 

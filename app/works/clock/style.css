@@ -1,0 +1,491 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- */
+
+.arrow_second {
+	width: 0.3vw;
+    height: 42vw;
+    position: absolute;
+    top: 5vw;
+    left: 42vw;
+    z-index: 68;
+
+	/*Animation*/
+	animation: second 60s linear infinite reverse;
+}
+
+.hulf_second {
+	width: 0.3vw;
+    height: 22vw;
+	background-color: black;
+}
+
+@keyframes second {
+	100% { transform: rotate(-360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ */
+
+.arrow_min {
+    width: 0.5vw;
+    height: 42vw;
+    position: absolute;
+    top: 5vw;
+    left: 42vw;
+    z-index: 69;
+	animation: min 3600s linear infinite reverse;
+}
+
+@keyframes min {
+	100% { transform: rotate(-360deg); }
+}
+
+.hulf_min {
+	width: 0.5vw;
+    height: 22vw;
+	background-color: black;
+}
+
+.point {
+    position: relative;
+    right: 0.1vw;
+    width: 0.7vw;
+    height: 1.7vw;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow_milisecond {
+    width: 0.3vw;
+    height: 10vw;
+    position: absolute;
+    top: 13vw;
+    left: 53vw;
+    z-index: 154;
+    animation: min_ms 1000ms linear infinite reverse;
+}
+
+@keyframes min_ms {
+    100% { transform: rotate(-360deg); }
+}
+
+.hulf_milisecond {
+    width: 0.3vw;
+    height: 5vw;
+    background-color: black;
+}
+
+
+
+
+/* ------------------------------------------------ */
+
+.numbers {
+    border: 1px solid;
+    width: 40vw;
+    height: 40vw;
+    transform: scale(1.2,1.2);
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(numbers.png);
+    position: absolute;
+    z-index: 10;
+    top: 6vw;
+    left: 22vw;
+}
+
+
+
+.numbers_ms {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(numbers.png);
+
+}
+
+.obj {
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+    z-index: 150;
+    top: 13vw;
+    left: 48vw;
+    -webkit-box-shadow: inset 0px 0px 0px 11px rgba(0,0,0,0.32);
+    -moz-box-shadow: inset 0px 0px 0px 11px rgba(0,0,0,0.32);
+    box-shadow: inset 0px 0px 0px 11px rgba(0,0,0,0.32);
+}
+
+.ms {
+    box-sizing: border-box;
+    padding: 4vw 0vw 0vw 4vw;
+    position: absolute;
+    z-index: 155;
+    width: 10.1vw;
+    height: 10.1vw;
+    top: 13vw;
+    left: 48vw;
+    opacity: 0.95;
+    border-radius: 50%;
+    background-color: #228B22;
+    transition: 0.6s;
+    color: white;
+    font-size: 4vh;
+}
+
+.ms:hover {
+    opacity: 0.05;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+
+
+.main {
+    background-color: #DAD8D8;
+    width: 16vw;
+    height: 16vw;
+    position: absolute;
+    top: 19vw;
+    left: 34vw;
+    z-index: 69;
+    overflow: hidden;
+    border-radius: 50%;
+	animation: second_1 10s ease-in-out infinite alternate-reverse;
+}
+
+
+
+.colorBox_1, .colorBox_2, .colorBox_3, .colorBox_4 {
+    width: 8vw;
+    height: 8vw;
+    float: left;
+}
+
+// .colorBox_1, .colorBox_4 {
+// 	background-color: white;
+// }
+
+.colorBox_3, .colorBox_2 {
+	background-color: #EE0000;
+}
+
+@keyframes second_1 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+
+
+
+
+
+.main_1 {
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 20vw;
+    left: 35vw;
+    z-index: 71;
+    overflow: hidden;
+    border-radius: 50%;
+	animation: second_2 10s ease-in-out 0.5s infinite alternate-reverse;
+}
+
+
+
+.colorBox_1_1, .colorBox_2_1, .colorBox_3_1, .colorBox_4_1 {
+	width: 7vw;
+    height: 7vw;
+    float: left;
+}
+
+.colorBox_1_1, .colorBox_4_1 {
+	background-color: white;
+}
+
+.colorBox_3_1, .colorBox_2_1 {
+	background-color: #FFA500;
+}
+
+@keyframes second_2 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_2 {
+	width: 12vw;
+    height: 12vw;
+    position: absolute;
+    top: 21vw;
+    left: 36vw;
+    z-index: 73;
+    overflow: hidden;
+    border-radius: 50%;
+	animation: second_3 10s ease-in-out 1s infinite alternate-reverse;
+}
+
+
+
+.colorBox_1_2, .colorBox_2_2, .colorBox_3_2, .colorBox_4_2 {
+	width: 6vw;
+    height: 6vw;
+	float: left;
+}
+
+.colorBox_1_2, .colorBox_4_2 {
+	background-color: white;
+}
+
+.colorBox_3_2, .colorBox_2_2 {
+	background-color: #FFFF00;
+}
+
+@keyframes second_3 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+
+
+
+
+.main_3 {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 22vw;
+    left: 37vw;
+    z-index: 75;
+    overflow: hidden;
+    border-radius: 50%;
+	animation: second_4 10s ease-in-out 1.5s infinite alternate-reverse;
+}
+
+
+
+.colorBox_1_3, .colorBox_2_3, .colorBox_3_3, .colorBox_4_3 {
+    width: 5vw;
+    height: 5vw;
+	float: left;
+}
+
+.colorBox_1_3, .colorBox_4_3 {
+	background-color: white;
+}
+
+.colorBox_3_3, .colorBox_2_3 {
+	background-color: #00EE00;
+}
+
+@keyframes second_4 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main_4 {
+	width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 23vw;
+    left: 38vw;
+    z-index: 80;
+    overflow: hidden;
+    border-radius: 50%;
+	animation: second_5 10s ease-in-out 2s infinite alternate-reverse;
+}
+
+
+
+.colorBox_1_4, .colorBox_2_4, .colorBox_3_4, .colorBox_4_4 {
+    width: 4vw;
+    height: 4vw;
+	float: left;
+}
+
+.colorBox_1_4, .colorBox_4_4 {
+	background-color: white;
+}
+
+.colorBox_3_4, .colorBox_2_4 {
+	background-color: #00BFFF;
+}
+
+@keyframes second_5 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+
+.main_5 {
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    top: 24vw;
+    left: 39vw;
+    z-index: 82;
+    overflow: hidden;
+    border-radius: 50%;
+
+	animation: second_6 10s ease-in-out 2.5s infinite alternate-reverse;
+}
+
+
+
+.colorBox_1_5, .colorBox_2_5, .colorBox_3_5, .colorBox_4_5 {
+    width: 3vw;
+    height: 3vw;
+	float: left;
+}
+
+.colorBox_1_5, .colorBox_4_5 {
+	background-color: white;
+}
+
+.colorBox_3_5, .colorBox_2_5 {
+	background-color: blue;
+}
+
+@keyframes second_6 {
+	100% { transform: rotate(720deg); }
+}
+
+
+
+
+
+.main_6 {
+    width: 4vw;
+    height: 3vw;
+    position: absolute;
+    top: 25vw;
+    left: 40vw;
+    z-index: 84;
+    overflow: hidden;
+    border-radius: 50%;
+	background-color: #9400D3;
+	color: black;
+	text-align: center;
+	padding-top: 1vw;
+	cursor: pointer;
+    font-size: 2vw;
+}
+
+
+
+.fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 150px;
+  background-color: #DCDCDC;
+}
+.fixed a {
+  text-decoration: none;
+  color: black;
+}
+.fixed a div {
+  padding: 13px 0px 0px 20px;
+  width: 49px;
+  height: 36px;
+  border: 1px solid black;
+  border-bottom: 0px;
+}
+.fixed a div.boot {
+  border-bottom: 1px solid black;
+}
+
