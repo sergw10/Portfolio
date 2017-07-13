@@ -238,6 +238,10 @@
     }
   }
 
+  .portfolio__profile-social-links__hidden {
+    display: none;
+  }
+
 
   .portfolio__profile-know-languges {
 
@@ -278,6 +282,7 @@
   .profile__skills-wrapper {
     margin: 15px 0 25px;
     position: relative;
+    text-align: center;
   }
 
   .ellipse-wrapper {
@@ -728,21 +733,88 @@
   }
 }
 
-@media screen and ( max-width: 960px ) {
-
-  .work-preview {
-    width: 96%;
-    margin-bottom: 20px;
-  }
-}
-
 @media screen and ( max-width: 900px ) {
 
   .portfolio__profile-info {
-    width: 270px;
+    width: 100%;
+    position: relative;
+
+    .grey-line {
+      display: none;
+    }
   }
 
+
   .main-section {
-    padding: 0 15px 0 280px;
+    padding: 0 15px;
+  }
+
+  .portfolio__profile-name {
+    text-align: center;
+  }
+
+  .portfolio__profile-contacts-wrapper,
+  .portfolio__profile-know-languges {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px 0 5px;
+    text-align: center;
+    margin-top: 20px;
+
+    h2 {
+      margin: 0 auto 20px;
+    }
+
+    ul, p, h2 {
+      width: 215px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+    }
+  }
+
+  ul.portfolio__profile-social-links {
+    display: none;
+  }
+
+  .portfolio__profile-social-links__hidden {
+    display: block;
+    text-align: center;
+
+    .portfolio__profile-social-links {
+      display: inherit;
+    }
+  }
+
+  .work-preview {
+    width: 47%;
+  }
+}
+
+@media screen and ( max-width: 530px ) {
+
+  .portfolio__profile-contacts-wrapper,
+  .portfolio__profile-know-languges {
+    width: 100%;
+
+    ul, p, h2 {
+      display: block;
+      margin: 0 auto;
+      text-align: left;
+    }
+  }
+
+  ul.portfolio__profile-social-links {
+    display: none;
+  }
+
+  .work-preview {
+    width: 98%;
+    margin: 3% 1%;
+  }
+
+  .work-preview:first-of-type {
+    margin-top: 0;
   }
 }
