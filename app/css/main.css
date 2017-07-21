@@ -137,7 +137,7 @@ body {
   padding: 30px 0 25px; }
 
 .grey-line {
-  width: 106%;
+  width: 100%;
   position: relative;
   left: -8px;
   margin-bottom: 15px;
@@ -168,6 +168,10 @@ body {
     margin: 0 4px;
     display: inline-block;
     vertical-align: top; }
+    .portfolio__profile-social-links li a img:hover {
+      -webkit-transform: scale(1.06);
+          -ms-transform: scale(1.06);
+              transform: scale(1.06); }
 
 .portfolio__profile-social-links__hidden {
   display: none; }
@@ -177,6 +181,10 @@ body {
   font-weight: 300;
   color: #ffffff;
   padding: 10px 0; }
+
+.portfolio__profile-know-languges h2,
+.portfolio__profile-contacts-wrapper h2 {
+  font-weight: 500; }
 
 .main-section {
   padding: 0px 15px 0 350px; }
@@ -211,7 +219,7 @@ body {
 .skill {
   position: relative;
   z-index: 1;
-  margin: 20px 5px;
+  margin: 20px 5px 10px;
   width: 157px;
   height: 157px;
   background-repeat: no-repeat; }
@@ -672,6 +680,9 @@ p.skill__percentage-wrap {
     margin: 0 5px; } }
 
 @media screen and (max-width: 530px) {
+  .portfolio__profile-img-wrapper {
+    width: 100px;
+    height: 100px; }
   .portfolio__profile-contacts-wrapper,
   .portfolio__profile-know-languges {
     width: 100%; }
@@ -682,6 +693,13 @@ p.skill__percentage-wrap {
       display: block;
       margin: 0 auto;
       text-align: left; }
+    .portfolio__profile-contacts-wrapper h2,
+    .portfolio__profile-know-languges h2 {
+      margin-bottom: 15px;
+      text-align: center; }
+  .portfolio__profile-know-languges {
+    margin-top: 10px;
+    margin-bottom: 20px; }
   ul.portfolio__profile-social-links {
     display: none; }
   .work-preview {
