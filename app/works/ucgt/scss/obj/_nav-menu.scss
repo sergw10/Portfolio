@@ -1,0 +1,43 @@
+.nav-menu {
+	float: right;
+	text-align: right;
+	font-family: $Montserrat;
+
+	ul {
+
+		li {
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 56px;
+
+			a {
+				position: relative;
+				text-transform: uppercase;
+				font-family: inherit;
+				font-weight: 400;
+				font-size: 16px;
+				color: #ffffff;
+			}
+
+			a:after {
+				transition: width .35s;
+				content: '';
+				position: absolute;
+				width: 0;
+				height: 2px;
+				background-color: #ffffff;
+				bottom: -6px;
+				left: 0;
+			}
+
+			a:hover:after,
+			a.active:after {
+				width: 100%;
+			}
+		}
+		
+		li:first-of-type {
+			margin-left: 0;
+		}
+	}
+}

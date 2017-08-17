@@ -1,0 +1,19 @@
+@mixin cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin border-radius ($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition ($css, $seconds) {
+  -webkit-transition: $css $seconds;
+  -moz-transition: $css $seconds;
+  -o-transition: $css $seconds;
+  transition: $css $seconds;
+}

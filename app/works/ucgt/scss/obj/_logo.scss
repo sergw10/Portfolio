@@ -1,0 +1,24 @@
+.logo-wrap {
+  float: left;
+  font-family: $Montserrat;
+
+  a, img, span {
+    display: inline-block;
+  }
+
+  img, span {
+    vertical-align: middle;
+  }
+
+  span {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 32px;
+    margin-left: 27px;
+  }
+
+  span:last-child {
+    margin-left: 14px;
+  }
+}

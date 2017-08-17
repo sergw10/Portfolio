@@ -1,0 +1,42 @@
+.footer {
+	background: $sky;
+	padding: 65px 0 50px;
+	text-align: center;
+	font-family: $Montserrat;
+	color: #ffffff;
+
+	p {
+		font-weight: 300;
+		font-size: 14px;
+
+		a {
+			color: inherit;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+
+	p:first-child {
+		margin-bottom: 45px;
+	}
+}
+
+.socials {
+	margin-top: 75px;
+
+	a {
+		color: inherit;
+		display: inline-block;
+		margin: 0 25px;
+		@include transition(transform, .35s);
+
+		i {
+			color: inherit;
+			font-size: 30px;
+		}
+	}
+	a:hover {
+		transform: scale(1.15)
+	}
+}

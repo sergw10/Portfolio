@@ -1,0 +1,25 @@
+/* Reset and box-model */
+@import 'include/box-model';
+@import 'include/reset';
+
+/* Variables, mixin and classes */
+@import 'include/variables';
+@import 'include/mixin';
+@import 'include/classes';
+
+/* Objects */
+@import 'obj/logo';
+@import 'obj/nav-menu';
+@import 'obj/burger-menu';
+
+/* Main styles */
+@import 'include/body';
+@import 'include/header';
+@import 'include/main';
+@import 'include/work-process';
+@import 'include/card-section';
+@import 'include/slider-section';
+@import 'include/footer';
+
+/* Responsive */
+@import 'include/responsive';
