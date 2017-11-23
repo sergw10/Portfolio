@@ -1,8 +1,7 @@
 {
-  "name": "vip_girl",
-  "version": "1.0.0",
-  "description": "myFirstProject",
-  "main": "index.js",
+  "name": "Portfolio",
+  "version": "1.0.1",
+  "description": "my portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
