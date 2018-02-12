@@ -395,7 +395,7 @@ var validName3 = function () {
 
  function countdown5(){
 	var today = new Date().getTime();
-	var end = new Date(2016, 11,01, 00, 00).getTime();
+	var end = new Date(2018, 4,01, 00, 00).getTime();
 	var dateX = new Date(end-today);
 	var perDays = 60*60*1000*24;
 
