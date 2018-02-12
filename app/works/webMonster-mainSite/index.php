@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="ru_RU">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>WebMonsters</title>
+</head>
+<body>
+	<a href="#header" id="anchor-bg">^</a>
+	<header id="header">
+		<div class="bg-black">
+			<div class="head-wrap">
+				<a href="http://webmonsters.dp.ua/">
+					<img class="logo" src="images/logo.png" alt="logo">
+				</a>
+				<div class="contacts">
+					<div>
+						<a href="tel:+380684072660">
+							<img src="images/phone.png" alt="phone">
+						</a>
+						<a href="tel:+380684072660">+38 (068) 407 26 60</a>
+					</div>
+					<div>
+						<a href="tel:+380938004430">
+							<img src="images/phone.png" alt="phone">
+						</a>
+						<a href="tel:+380938004430">+38 (093) 800 44 30</a>
+					</div>
+					<div>
+						<a href="tel:+380968222282">
+							<img src="images/phone.png" alt="phone">
+						</a>
+						<a href="tel:+380968222282">+38 (096) 822 22 82</a>
+					</div>
+					<div>
+						<a href="mailto:info@webmonsters.dp.ua">
+							<img src="images/email.png" alt="email">
+						</a>
+						<a href="mailto:info@webmonsters.dp.ua">info@webmonsters.dp.ua</a>
+					</div>
+				</div>
+				<div class="menu-wrap">
+					<span class="menu">
+						<span><a href="http://webmonsters.dp.ua/">Главная</a></span>
+						<span><a href="work.html">Работы</a></span>
+						<span><a href="services.html">Услуги</a></span>
+						<span><a href="blog.html">Блог</a></span>
+						<span><a href="vacancy.html">Вакансии</a></span>
+						<span><a href="contacts.html">Контакты</a></span>
+					</span>
+				</div>
+				<div class="center-text">
+					<p>Хотите Landing-Page или Интернет-Магазин по низкой цене?</p>
+					<p>Тогда успейте заказать его в сезон скидок!</p>
+				</div>
+								
+				<div class="time-to-order">
+			<!--счетчик-->
+				</div>
+				<div class="forma_1">
+					<p id="message1"></p>
+					<p id="message1-1"></p>
+					<input id="name1" type="text" placeholder="Имя" maxlength="20">
+					<input type="text" id="phone1" placeholder="Телефон">
+					<button id="order1" type="submit">заказать</button>
+					<h1 class="red-h1">Спасибо за Ваш заказ, мы в скором времени Вам перезвоним.</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main id="main">
+		<section id="section_1">
+			<div class="s1_wrap">
+				<h1>Про студию</h1>
+				<p>Совсем молодая, но довольно опытная</p>	
+			</div>
+		</section>
+		<section id="section_2">
+			<div class="s2_wrap">
+				<div class="s2_left">
+					<div class="s2_grey_wrap">
+						<div class="slid-opacity">
+							<div id="s2_img1"></div>
+							<div id="s2_img2"></div>
+							<div id="s2_img3"></div>
+						</div>
+					</div>
+					<div class="but-grey">
+						<div id="grey_1"></div>
+						<div id="grey_2"></div>
+						<div id="grey_3"></div>
+					</div>
+				</div>
+				<div class="s2_right">
+					<p>Основная специализация — проектирование сайтов и Landing page. Наша команда, состоящая из дизайнеров, маркетологов и программистов, поддерживает каждый проект на протяжении всей его жизни. Студия занимается разработкой индивидуального дизайна, оптимизацией скорости работы продукта, предоставляет услуги по продвижению сайтов.
+					<br>
+					<br>
+					Заказывая сайты у нас вы получите гарантированно качественный продукт от команды профессионалов!</p>
+				</div>
+			</div>
+		</section>
+		<section id="section_3">
+			<div class="s3_wrap">
+				<h1>Наша команда</h1>
+				<p>Наша команда - профессионалы, любящие своё дело</p>	
+			</div>
+		</section>
+		<section id="section_4">
+			<div class="s4_wrap">
+				<div class="s4_imgs1">
+					<div class="hr">
+						<img src="images/foto_1.jpg" alt="foto-team">
+						<span>
+							<h4><b>Александер Кобзар</b><br> / Отдел развития</h4>
+							<p>Реклама, партнерство, совместная работа - Вам сюда.</p>
+							<span class="socials">
+								<div id="triangle"></div>
+								<a href="https://www.facebook.com/sapsankobzar" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="https://vk.com/alex_kobzar" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/alexander_kobzar/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://twitter.com/AlexanderKobzar" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</span>
+						</span>
+					</div>
+					<div class="hr hr-desk-serg">
+						<img src="images/foto_2.jpg" alt="foto-team">
+						<span>
+							<h4><b>Сергей Рубежин</b><br> / Front-end разработчик</h4>
+							<p>Если Вам нужен хорошо сверстанный сайт, то Вы обратились по адресу!</p>
+							<span class="socials">
+								<div id="triangle"></div>
+								<a href="https://vk.com/rubezhin_sergey" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							</span>
+						</span>
+					</div>
+					<div class="hr">
+						<img src="images/foto_3.jpg" alt="foto-team">
+						<span>
+							<h4><b>Денис Цыбулевский</b><br> / Back-end разработчик</h4>
+							<p>Монстр Web технологий!</p>
+							<span class="socials">
+								<div id="triangle"></div>
+								<a href="https://vk.com/id59434733" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							</span>
+						</span>
+					</div>
+				</div>
+				<div class="s4_imgs2">
+					<div class="hr">
+						<img src="images/foto_4.jpg" alt="foto-team">
+						<span>
+							<h4><b>Владимир Кобзар</b><br> / Front-end разработчик, Дизайнер</h4>
+							<p>Хотите себе очень красивый и продуманный дизайн? Тогда Вам ко мне!</p>
+							<span class="socials">
+								<div id="triangle"></div>
+								<a href="https://vk.com/vladimir_kobzar" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							</span>
+						</span>
+					</div>
+					<div class="hr hr-mob-serg">
+						<img src="images/foto_2.jpg" alt="foto-team">
+						<span>
+							<h4><b>Сергей Рубежин</b><br> / Front-end разработчик</h4>
+							<p>Если Вам нужен хорошо сверстанный сайт, то Вы обратились по адресу!</p>
+							<span class="socials">
+								<div id="triangle"></div>
+								<a href="https://vk.com/rubezhin_sergey" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>								
+							</span>
+						</span>
+					</div>
+				</div>
+				<div class="s4_grey_but">
+					<div id="s4_but_1"></div>
+					<div id="s4_but_2"></div>
+				</div>
+			</div>
+		</section>
+		<section id="section_5">
+			<div class="s5_wrap">
+				<h1>Последние работы</h1>
+				<p>У нас их очень много, к сожалению все не поместятся сюда...</p>
+				<div class="gallery">
+					<div class="gal_1">
+						<a href="http://alexkobzar.com/" target="_blank">
+							<div>
+								<img src="images/gal_1.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="http://steamplay.org/" target="_blank">
+							<div>
+								<img src="images/gal_2.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="http://sportclubsapsan.dp.ua/" target="_blank">
+							<div>
+								<img src="images/gal_3.jpg" alt="gallery">
+							</div>
+						</a>
+					</div>
+					<div class="gal_2">
+						<a href="http://paromag.com/" target="_blank">
+							<div>
+								<img src="images/gal_4.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="http://phonixmobile.de/www/" target="_blank">
+							<div>
+								<img src="images/gal_5.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="http://fartuk.in.ua/" target="_blank">
+							<div>
+								<img src="images/gal_6.jpg" alt="gallery">
+							</div>
+						</a>
+					</div>
+					<!-- <div class="gal_hidden">
+						<a href="#" target="_blank">
+							<div>
+								<img src="images/gal_4.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div>
+								<img src="images/gal_3.jpg" alt="gallery">
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div>
+								<img src="images/gal_4.jpg" alt="gallery">
+							</div>
+						</a>
+					</div> -->
+				</div>
+				<!-- <a class="link">Просмотреть все работы</a> -->
+				<a class="link_01" href="work.html">Просмотреть все работы</a>
+			</div>
+		</section>
+		<section id="section_5-1">
+			<div class="s5-1_wrap">
+				<h2>Хотите свой продающий сайт?</h2>
+				<div class="forma_1 form_2">
+					<p id="message2" class="mess-white"></p>
+					<p id="message2-2" class="mess-grey"></p>
+					<input id="name2" type="text" placeholder="Имя" maxlength="20">
+					<input type="text" id="phone2" placeholder="Телефон">
+					<button id="order2" type="submit">заказать</button>
+					<h1 class="red-h1">Спасибо за Ваш заказ, мы в скором времени Вам перезвоним.</h1>
+				</div>
+			</div>
+		</section>
+		<section id="section_6">
+			<div class="s6_wrap">
+				<h1>С кем мы работаем</h1>
+				<p>Наши партнеры гордятся теми работами, которые мы для них сделали</p>
+				<div class="partners">
+					<div class="part_1">
+						<div>
+							<span>
+								<img src="images/doc.png" alt="document">
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_1.png" alt="company-logo">
+							<h5>Компания по созданию<br> флаеров и стикеров</h5>
+							<p>rko.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_2.png" alt="company-logo">
+							<h5>Ресурс продажи<br> подержаных авто</h5>
+							<p>audiopro.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_3.png" alt="company-logo">
+							<h5>Студия загара</h5>
+							<p>infinity.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_4.png" alt="company-logo">
+							<h5>Сеть ресторанов по<br> всей територии Украины</h5>
+							<p>swan.com</p>
+						</div>
+					</div>
+					<div class="part_2">
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_1.png" alt="company-logo">
+							<h5>Компания по созданию<br> флаеров и стикеров</h5>
+							<p>rko.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_2.png" alt="company-logo">
+							<h5>Ресурс продажи<br> подержаных авто</h5>
+							<p>audiopro.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_3.png" alt="company-logo">
+							<h5>Студия загара</h5>
+							<p>infinity.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_4.png" alt="company-logo">
+							<h5>Сеть ресторанов по<br> всей територии Украины</h5>
+							<p>swan.com</p>
+						</div>
+					</div>
+					<div class="part_2 part_hide">
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_1.png" alt="company-logo">
+							<h5>Компания по созданию<br> флаеров и стикеров</h5>
+							<p>rko.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_2.png" alt="company-logo">
+							<h5>Ресурс продажи<br> подержаных авто</h5>
+							<p>audiopro.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_3.png" alt="company-logo">
+							<h5>Студия загара</h5>
+							<p>infinity.com</p>
+						</div>
+						<div>
+							<span>
+								<p>Просмотреть отзыв</p><p>клиента</p>
+							</span>
+							<img src="images/part_4.png" alt="company-logo">
+							<h5>Сеть ресторанов по<br> всей територии Украины</h5>
+							<p>swan.com</p>
+						</div>
+					</div>
+				</div>
+				<a class="more-partners">Просмотреть больше партнеров</a>
+			</div>
+		</section>
+		<section id="section_7">
+			<div class="s7_wrap">
+				<h1>Мнение клиентов о нас</h1>
+				<p>Приблизительно 100% отзывов о нас положительные</p>
+				<div class="opinion">
+					<div class="op_left">
+						<div class="s7_grey_wrap">
+							<div class="foto_slid">
+								<div id="foto_1"></div>
+								<div id="foto_2"></div>
+								<div id="foto_3"></div>
+							</div>
+						</div>
+						<div class="s7_grey_but">
+							<div id="s7_but_1"></div>
+							<div id="s7_but_2"></div>
+							<div id="s7_but_3"></div>
+						</div>
+					</div>
+					<div class="op_right">
+						<div class="s7_grey_right">
+							<h4 class="op-name"><b>Мария Колесник</b> / Представитель <br>FARTUK.IN.UA</h4>
+							<p class="op-text">Команда WebMonsters - это команда профессионалов, которые точно знают чего хотят заказчики и конечные потребители! Все на высшем уровне, очень довольны Вашей работой!</p>
+							<div id="arr_left">
+								<div class="arr_img_left"></div>
+							</div>
+							<div id="arr_right">
+								<div class="arr_img_right"></div>
+							</div>
+							<div id="triangle" class="triangle-left"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section_5-1">
+			<div class="s5-1_wrap">
+				<h2>Закажите свой сайт ПРЯМО СЕЙЧАС!</h2>
+				<div class="forma_1 form_2">
+					<p id="message3" class="mess-white"></p>
+					<p id="message3-3" class="mess-grey"></p>
+					<input id="name3" type="text" placeholder="Имя" maxlength="20">
+					<input  type="text" id="phone3" placeholder="Телефон">
+					<button id="order3" type="submit">заказать</button>
+					<h1 class="red-h1">Спасибо за Ваш заказ, мы в скором времени Вам перезвоним.</h1>
+				</div>
+			</div>
+		</section>
+		<section id="section_8">
+			<div class="s8_wrap">
+				<h1>Место, где мы создаем прекрасное</h1>
+				<p>У каждой достойной студии есть волшебный уголок, где можно творить</p>
+				<div id="map"></div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="foot-wrap">
+			<div class="menu-wrap">
+				<span class="menu menu-foot">
+					<span><a href="http://webmonsters.dp.ua/">Главная</a></span>
+					<span><a href="work.html">Работы</a></span>
+					<span><a href="services.html">Услуги</a></span>
+					<span><a href="blog.html">Блог</a></span>
+					<span><a href="vacancy.html">Вакансии</a></span>
+					<span><a href="contacts.html">Контакты</a></span>
+				</span>
+			</div>
+			<div class="foot-contact">
+				<span class="call-us">
+					<a href="tel:+380684072660">
+						<img src="images/phone_white.png" alt="phone">
+					</a>
+					<a href="tel:+380684072660">+38 (068) 407 26 60</a>
+				</span>
+				<span class="call-us-1">
+					<a href="tel:+380938004430">
+						<img src="images/phone_white.png" alt="phone">
+					</a>
+					<a href="tel:+380938004430">+38 (093) 800 44 30</a>
+				</span>
+				<span class="call-us-1">
+					<a href="tel:+380968222282">
+						<img src="images/phone_white.png" alt="phone">
+					</a>
+					<a href="tel:+380968222282">+38 (096) 822 22 82</a>
+				</span>
+				<span class="foot-soc">
+					<a href="#" target="_blank"><span class="social_wrap"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+					<a href="#" target="_blank"><span class="social_wrap"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+					<a href="#" target="_blank"><i class="fa fa-instagram insta" aria-hidden="true"></i></a>
+					<a href="https://vk.com/web_monsters" target="_blank"><span class="social_wrap"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+				</span>
+				<span class="write-us">
+					<a href="mailto:info@webmonsters.dp.ua">
+						<img src="images/email_white.png" alt="email">
+					</a>
+					<a href="mailto:info@webmonsters.dp.ua">info@webmonsters.dp.ua</a>
+				</span>
+			</div>
+			<p class="licence">© 2014-2016</p>
+		</div>
+	</footer>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" async></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
