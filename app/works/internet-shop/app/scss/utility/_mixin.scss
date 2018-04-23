@@ -1,0 +1,15 @@
+@mixin box-shadow--outline {
+	-webkit-box-shadow: inset 2px 2px 0px 0px $outline--shadow;
+  -moz-box-shadow: inset 2px 2px 0px 0px $outline--shadow;
+  box-shadow: inset 2px 2px 0px 0px $outline--shadow;
+}
+
+@mixin border-radius--italic {
+	border: 1px solid $input--border;
+	border-radius: 100px 0 95px 0/190px 0 200px 0;
+}
+
+@mixin sprite-icons {
+	background-image: url('../images/sprites/icons-sprite.png');
+	background-repeat: no-repeat;
+}

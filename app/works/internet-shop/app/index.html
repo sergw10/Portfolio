@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32"/>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.min.css"/>
+
+
+    <title>The Live Link Shop</title>
+  </head>
+
+  <body>
+
+    <main class="main-wrapper">
+
+      <!-- HEADER -->
+      <header class="header clearfix">
+        <div class="container">
+          
+          <!-- LOGO -->
+          <div class="logo-wrap">
+            <a href="#">
+              <div class="logo-img"></div>
+            </a>
+          </div>
+
+          <div class="callback-search--wrap">
+
+            <!-- Callback -->
+            <div class="callback--wrap">
+              <p class="callback--number">
+                <span>(044)</span>
+                <span> 555-00-00</span>
+              </p>
+              <button class="btn--dotted-line">Обратный звонок</button>
+            </div>
+
+            <!-- SEARCH -->
+            <div class="search--wrap">
+              <label for="search">
+                <input id="search" class="border--italic placeholder-focus-opacity" type="text" placeholder="Поиск">
+                <button class="btn--search"></button>
+              </label>
+            </div>
+
+          </div>
+
+          <!-- HELP ONLINE -->
+          <div class="help--online">
+            <div class="help--online-img"></div>
+            <p class="text-shadow--white">Помощь онлайн</p>
+          </div>
+
+          <!-- USER and BASKET -->
+          <div class="user-basket--wrap clearfix">
+            <button class="user btn--dotted-line">Вход для постоянных клиентов</button>
+            <button class="busket--wrap">
+              <div class="busket--img-wrap">
+                <div class="busket--number-orders">
+                  <p>3</p>
+                </div>
+                <div class="big-busket"></div>
+              </div>
+              <span class="busket--text">Корзина</span>
+              <div class="busket--dropdown arr--dropdown"></div>
+            </button>
+          </div>
+
+          <!-- Main menu header -->
+          <nav class="nav--main-menu mt--15 mb--20">
+            <a class="text-shadow--white" href="#">О магазине</a>
+            <a class="text-shadow--white" href="#">Адреса и телефоны</a>
+            <a class="text-shadow--white" href="#">Акции</a>
+            <a class="text-shadow--white" href="#">Новости</a>
+            <a class="text-shadow--white" href="#">Статьи и обзоры</a>
+            <a class="text-shadow--white ask--help" href="#" title="Помощь по всем вопросам">Помощь</a>
+            <a class="text-shadow--white" href="#">Доставка и оплата</a>
+            <a class="text-shadow--white" href="#">Гарантия и сервис</a>
+          </nav>
+ 
+        </div>
+      </header>
+      <!-- End HEADER -->
+
+      <!-- Navigation category -->
+      <div class="container">
+        <nav class="nav--category">
+          <div class="mobile--nav-category clearfix">
+	          <form class="nav--select-category">  
+	            <select>
+	              <option value="ПК и Серверы Prime PC" selected>ПК и Серверы Prime PC</option>
+	              <option value="Компьютеры и периферия">Компьютеры и периферия</option>
+	              <option value="Программное обеспечение">Программное обеспечение</option>
+	              <option value="Сети и теле- коммуникации">Сети и теле- коммуникации</option>
+	              <option value="Системы безопастности">Системы безопастности</option>
+	              <option value="Бесперебойная работа">Бесперебойная работа</option>
+	            </select>
+	          </form>
+	          <div class="nav--menu-burger js--nav--menu-burger
+	           js--nav--menu-burger--header float--right">
+	          	<div class="burger-line burger-line--1"></div>
+	          	<div class="burger-line burger-line--2"></div>
+	          	<div class="burger-line burger-line--3"></div>
+	          </div>
+	          <div class="nav--main-menu nav--main-menu--copy">
+              <a class="text-shadow--white" href="#">О магазине</a>
+              <a class="text-shadow--white" href="#">Адреса и телефоны</a>
+              <a class="text-shadow--white" href="#">Акции</a>
+              <a class="text-shadow--white" href="#">Новости</a>
+              <a class="text-shadow--white" href="#">Статьи и обзоры</a>
+              <a class="text-shadow--white" href="#" title="Помощь по всем вопросам">Помощь</a>
+              <a class="text-shadow--white" href="#">Доставка и оплата</a>
+              <a class="text-shadow--white" href="#">Гарантия и сервис</a>
+            </div>
+          </div>
+          <ul>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">ПК и Серверы Prime PC</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">Компьютеры и периферия</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">Программное обеспечение</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">Сети и теле- коммуникации</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">Системы безопастности</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-category--item">
+              <a href="/" class="menu-category--link">Бесперебойная работа</a>
+              <div class="menu-dropdown--arr arr--dropdown"></div>
+              <div class="menu-category--dropdown">
+                <ul>
+                  <li><a href="/"></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- End category navigation -->
+
+      <!-- SLIDER left SECTION -->
+      <section class="slider--wrap">
+        <div class="container">
+          <div class="slider--main-wrap">
+            <div class="slider--main">
+              <div class="slider--main-item">
+                <h3>Инновационные решения Cisco Catalyst Switches</h3>
+                <p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
+                <button class="cover"><a href="#">Ознакомиться с решением</a></button>
+              </div>
+              <div class="slider--main-item">
+                <h3>Инновационные решения Cisco Catalyst Switches</h3>
+                <p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
+                <button class="cover"><a href="#">Ознакомиться с решением</a></button>
+              </div>
+              <div class="slider--main-item">
+                <h3>Инновационные решения Cisco Catalyst Switches</h3>
+                <p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
+                <button class="cover"><a href="#">Ознакомиться с решением</a></button>
+              </div>
+              <div class="slider--main-item">
+                <h3>Инновационные решения Cisco Catalyst Switches</h3>
+                <p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
+                <button class="cover"><a href="#">Ознакомиться с решением</a></button>
+              </div>
+              <div class="slider--main-item">
+                <h3>Инновационные решения Cisco Catalyst Switches</h3>
+                <p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
+                <button class="cover"><a href="#">Ознакомиться с решением</a></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="stock--wrap">
+            <h2>Акции</h2>
+            <div class="stock--item clearfix">
+              <img src="images/products/kaspersky.jpg" alt="kaspersky">
+              <p>
+                <a href="#111">Коробочные продукты «Лаборатории Касперского»</a><span> без увеличения стоимости!</span>
+              </p>
+            </div>
+            <div class="stock--item clearfix">
+              <img src="images/products/abbyy_reader.jpg" alt="abbyy_reader">
+              <p>
+                <a href="#222">Специальные цены на ABBYY FineReader</a><span> 10 Professional Edition!</span>
+              </p>
+            </div>
+            <div class="stock--item clearfix">
+              <img src="images/products/windows.jpg" alt="windows-logo">
+              <p>
+                <a href="#">Скидка до 80% на программные продукты</a>
+                <span> Microsoft для академических пользователей и научных учреждений</span>
+              </p>
+            </div>
+            <div class="btn--grey-gradient">
+              <button class="text-shadow--white"><span><a href="#">Все акции</a></span><span class="arr-blue"></span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="production-slider">
+        <div class="container">
+          <div class="slider-main--navigation clearfix">
+            <div class="slider-navigation--item-wrap">
+              <span class="slider-main--nav-item--hidden">Спецпредложения</span>
+              <div class="js--slider-navigation--item slider-navigation--item active">
+                <button>
+                  <span>Спецпредложения</span>
+                </button>
+              </div>
+              <div class="js--slider-navigation--item slider-navigation--item">
+                <button>
+                  <span>Бестселлеры</span>
+                </button>
+              </div>
+              <div class="js--slider-navigation--item slider-navigation--item">
+                <button>
+                  <span>Новинки</span>
+                </button>
+              </div>
+              <div class="js--slider-navigation--item slider-navigation--item">
+                <button>
+                  <span>Скоро в продаже</span>
+                </button>
+              </div>
+            </div>
+            <div class="nav--menu-burger nav--menu-burger--grey js--nav--menu-burger js--nav--menu-burger--slider">
+	          	<div class="burger-line burger-line--1"></div>
+	          	<div class="burger-line burger-line--2"></div>
+	          	<div class="burger-line burger-line--3"></div>
+	          </div>
+          </div>
+          <div class="btn--grey-gradient all-superoffers">
+            <button class="text-shadow--white"><span><a href="#">Все спецпредложения</a></span><span class="arr-blue"></span></button>
+          </div>
+          <div class="slider-main">
+            <div class="slider-main--wrapper">
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/laptop.jpg" alt="laptop.jpg">
+                <div class="slider-item--present-marker"></div>
+                <div class="slider-item--set"></div>
+              </div>
+              <p class="slider-item--bonus">+ в подарок мышка и стильная сумка</p>
+              <a href="#" class="slider-item--name">Asus ee PC 1015PE White</a>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>6 257</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">736 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/cd_drive.jpg" alt="cd_drive.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">Уникальное снижение цены на винчестер 200 GB!</p>
+              <a href="#" class="slider-item--name">Samsung HD203WI</a>
+              <p class="slider-item--old-price">754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>599</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">86 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/camera.jpg" alt="camera.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">При покупке 5 камер и более — скидка 10%</p>
+              <a href="#" class="slider-item--name">Vision Hi-Tech VB60CSHR</a>
+              <p class="slider-item--old-price">1 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>1 599</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">206 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/apple_imac.jpg" alt="apple_imac.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">По европейской цене!</p>
+              <a href="#" class="slider-item--name">Apple iMac 27" (Z0GF)</a>
+              <p class="slider-item--old-price">24 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>23 399</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">3 049 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/video_card.jpg" alt="video_card.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">Скидка 25%</p>
+              <a href="#" class="slider-item--name">Видеокарта MSI N9800GT</a>
+              <p class="slider-item--old-price">1 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>1 434</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">246 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/laptop.jpg" alt="laptop.jpg">
+                <div class="slider-item--present-marker"></div>
+                <div class="slider-item--set"></div>
+              </div>
+              <p class="slider-item--bonus">+ в подарок мышка и стильная сумка</p>
+              <a href="#" class="slider-item--name">Asus ee PC 1015PE White</a>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>6 257</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">736 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/cd_drive.jpg" alt="cd_drive.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">Уникальное снижение цены на винчестер 200 GB!</p>
+              <a href="#" class="slider-item--name">Samsung HD203WI</a>
+              <p class="slider-item--old-price">754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>599</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">86 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/camera.jpg" alt="camera.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">При покупке 5 камер и более — скидка 10%</p>
+              <a href="#" class="slider-item--name">Vision Hi-Tech VB60CSHR</a>
+              <p class="slider-item--old-price">1 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>1 599</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">206 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/apple_imac.jpg" alt="apple_imac.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">По европейской цене!</p>
+              <a href="#" class="slider-item--name">Apple iMac 27" (Z0GF)</a>
+              <p class="slider-item--old-price">24 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>23 399</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">3 049 $</p>
+              </div>
+              <div class="slider-main--item">
+              <div class="slider-item--img">
+                <img src="images/products/video_card.jpg" alt="video_card.jpg">
+                <div class="slider-item--present-marker"></div>
+              </div>
+              <p class="slider-item--bonus">Скидка 25%</p>
+              <a href="#" class="slider-item--name">Видеокарта MSI N9800GT</a>
+              <p class="slider-item--old-price">1 754 грн.</p>
+              <br>
+              <div class="btn--grey-gradient">
+                <button class="slider-item--price">
+                  <div class="slider-item--price-text">
+                    <span>1 434</span>
+                    <span>грн.</span>
+                  </div>
+                  <div class="busket-small"></div>
+                </button>
+              </div>
+              <p class="slider-item--savings">246 $</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Companies list section -->
+      <section class="companies-list--wrap">
+        <div class="container">
+          <h2 class="companies-list--title float--left">IT-решения и компьютерная техника ведущих мировых производителей</h2>
+          <div class="btn--grey-gradient float--right all-manufacturers--link">
+            <button class="text-shadow--white"><span><a href="#">Все производители</a></span><span class="arr-blue"></span></button>
+          </div>
+        </div>
+
+        <div class="container">  
+          <div class="companies-list--logos-wrap clearfix">  
+            <div class="companies-list--block">
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="atst-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line mobile--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="toshiba-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="ibm-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="dell-logo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="companies-list--block">
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="apple-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line responsive--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="microsoft-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="intel-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="amd-logo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="companies-list--block">
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="cisco-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line mobile--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="panasonic-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="lenovo-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="asus-logo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="companies-list--block">
+              <div class="companies-list--block-logo block-logo--border block-logo--gradient-line absolute--grey-line">
+                <div class="companies-logo-wrap">
+                  <div class="nokia-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo block-logo--border">
+                <div class="companies-logo-wrap">
+                  <div class="samsung-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="nec-logo"></div>
+                </div>
+              </div>
+              <div class="companies-list--block-logo">
+                <div class="companies-logo-wrap">
+                  <div class="kaspersky-logo"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="companies-list--text-wrap clearfix">
+            <div class="clearfix">
+              <ul class="companies-list--text-list">
+                <li><a href="#">ACER</a></li>
+                <li><a href="#">ADOBE</a></li>
+                <li><a href="#">AMP NETCONNECT</a></li>
+                <li><a href="#">APC</a></li>
+                <li><a href="#">Apollo</a></li>
+                <li><a href="#">ASSMANN</a></li>
+                <li><a href="#">AVAVA</a></li>
+              </ul>
+              <ul class="companies-list--text-list">
+                <li><a href="#">BenQ</a></li>
+                <li><a href="#">BOSCH</a></li>
+                <li><a href="#">CISCO</a></li>
+                <li><a href="#">Dell</a></li>
+                <li><a href="#">D-LINK</a></li>
+                <li><a href="#">Dr.Web</a></li>
+                <li><a href="#">EPSON</a></li>
+              </ul>
+            </div>
+            <div class="clearfix">
+              <ul class="companies-list--text-list">
+                <li><a href="#">McAfee</a></li>
+                <li><a href="#">MICROSOFT</a></li>
+                <li><a href="#">MSI</a></li>
+                <li><a href="#">NEC</a></li>
+                <li><a href="#">OKI</a></li>
+                <li><a href="#">ORACLE</a></li>
+                <li><a href="#">PANASONIC</a></li>
+              </ul>
+              <ul class="companies-list--text-list">
+                <li><a href="#">BenQ</a></li>
+                <li><a href="#">BOSCH</a></li>
+                <li><a href="#">CISCO</a></li>
+                <li><a href="#">Dell</a></li>
+                <li><a href="#">D-LINK</a></li>
+                <li><a href="#">Dr.Web</a></li>
+                <li><a href="#">EPSON</a></li>
+              </ul>
+            </div>
+            <div class="clearfix">
+              <ul class="companies-list--text-list">
+                <li><a href="#">PANASONIC</a></li>
+                <li><a href="#">PROMT</a></li>
+                <li><a href="#">R&M</a></li>
+                <li><a href="#">SAMSUNG</a></li>
+                <li><a href="#">TOSHIBA</a></li>
+                <li><a href="#">VINET</a></li>
+                <li><a href="#">VMware</a></li>
+              </ul>
+              <ul class="companies-list--text-list">
+                <li><a href="#">ESET</a></li>
+                <li><a href="#">HP</a></li>
+                <li><a href="#">HITACHI DATA SYSTEM</a></li>
+                <li><a href="#">IBM</a></li>
+                <li><a href="#">INTEL</a></li>
+                <li><a href="#">KINGSTON</a></li>
+                <li><a href="#">LG ELECTRONICS</a></li>
+              </ul>
+            </div>
+            <div class="clearfix">
+              <ul class="companies-list--text-list">
+                <li><a href="#">McAfee</a></li>
+                <li><a href="#">MICROSOFT</a></li>
+                <li><a href="#">MSI</a></li>
+                <li><a href="#">NEC</a></li>
+                <li><a href="#">OKI</a></li>
+                <li><a href="#">ORACLE</a></li>
+                <li><a href="#">PANASONIC</a></li>
+              </ul>
+              <ul class="companies-list--text-list">
+                <li><a href="#">PANASONIC</a></li>
+                <li><a href="#">PROMT</a></li>
+                <li><a href="#">R&M</a></li>
+                <li><a href="#">SAMSUNG</a></li>
+                <li><a href="#">TOSHIBA</a></li>
+                <li><a href="#">VINET</a></li>
+                <li><a href="#">VMware</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="grey--line">
+      </section>
+
+      <!-- Articles of products section -->
+      <section class="article-list--wrap">
+        <div class="container mb--15">
+          <h2 class="article-list--title float--left">Статьи и обзоры</h2>
+          <div class="btn--grey-gradient float--right all-articles--link">
+            <button class="text-shadow--white"><span><a href="#">Другие статьи и обзоры</a></span><span class="arr-blue"></span></button>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="article--preview-productions">
+            <div>
+              <img src="images/products/samsung_galaxy.jpg" alt="samsung_galaxy.jpg">
+            </div>
+            <h3>
+              <a href="#">Обзор смартфона Samsung Galaxy R</a>
+            </h3>
+              <p>Samsung продолжает наращивать количество моделей в свой звездной серии смартфонов Galaxy. Впрочем, на этот раз причина появления новинки вполне предсказуема.</p>
+          </div>
+          <div class="article--preview-productions">
+            <div>
+              <img src="images/products/deskjet.jpg" alt="deskjet.jpg">
+            </div>
+            <h3>
+              <a href="#22">Обзор принтера Hewlett Packard Deskjet D1663</a>
+            </h3>
+              <p>Волны удовольствия...! Ну какой украинец не любит вкусной еды? Вот и я, признаться, не прочь поесть что-нибудь аппетитное.</p>
+          </div>
+          <div class="article--preview-productions">
+            <div>
+              <img src="images/products/laptop_01.png" alt="laptop_01.png">
+            </div>
+            <h3>
+              <a href="#33">LIFEBOOK X2: ноутбук, складывающийся вчетверо</a>
+            </h3>
+              <p>Настольный компьютер, ноутбук, нетбук, планшет, смартфон – вроде бы все размерные ниши компьютерных устройств уже заняты, и ничего нового тут не придумаешь.</p>
+          </div>
+          <div class="article--preview-productions">
+            <div>
+              <img src="images/products/seagate.png" alt="seagate.png">
+            </div>
+            <h3>
+              <a href="#44">Обзор беспроводного HDD Seagate GoFlex Satellite</a>
+            </h3>
+              <p>Банальный вопрос: что делать, если в вашем ноутбуке закончилось место на жестком диске? Самый простой ответ – купить внешний жесткий диск с USB-интерфейсом, благо сейчас это недорого и широко доступно.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer--blue-border"></div>
+          <p class="foot--copyright">© 2003–2013, The LiveLinkShop</p>
+
+          <!-- Footer main menu -->
+          <nav class="nav--main-menu foot-nav--main-menu">
+            <a class="text-shadow--white" href="#">О магазине</a>
+            <a class="text-shadow--white" href="#">Сотрудничество с нами</a>
+            <a class="text-shadow--white" href="#">Адреса и телефоны</a>
+            <a class="text-shadow--white ask--help" href="#" title="Помощь по всем вопросам">Помощь</a>
+            <a class="text-shadow--white" href="#">Оплата и доставка</a>
+            <a class="text-shadow--white" href="#">Гарантия и сервис</a>
+          </nav>
+
+          <div class="footer--info">
+            <div class="footer--info-item footer--info-addres clearfix">
+              <div>
+                <p>Украина, Киев, ул. Ленина, 31</p>
+                <a href="tel:+380445550000"><span>(044)</span> 555-00-00</a>
+                <button class="btn--dotted-line">Обратный звонок</button>
+              </div>
+              <div>
+                <div class="btn--grey-gradient">
+                  <button class="text-shadow--white"><span><a href="#">Форма обратной связи</a></span></button>
+                </div>
+                <a class="terms-of-use" href="#">Условия использования сайта</a>
+              </div>
+            </div>
+            <div class="footer--info-item footer--work-hour">
+              <div>  
+                <p>Время работы с 9:00 до 19:00</p>
+                <p>Суббота с 9:00 до 18:00</p>
+                <p>Воскресенье с 10:00 до 15:00</p>
+              </div>
+              <div>
+                <span>Принимаем к оплате</span>
+                <div class="pay-services"></div>
+              </div>
+            </div>
+            <div class="footer--info-item footer--info-socials">
+              <div>
+                <div class="foot-social foot-social--fb"></div>
+                <a href="#1">Мы на Фейсбуке</a>
+              </div>
+              <div>
+                <div class="foot-social foot-social--vk"></div>
+                <a href="#2">Наша страница вКонтакте</a>
+              </div>
+              <div>
+                <div class="foot-social foot-social--tw"></div>
+                <a href="#3">Наш Твитер</a>
+              </div>
+            </div>
+            <div class="footer--info-item owox-info absolute--grey-line">
+              <div class="owox-info--wrap clearfix">
+                <!-- <a href="https://www.owox.ru/" class="owox-logo"></a> -->
+                <div>
+                  <p>Интернет-магазин разработан</p>
+                  <p>и поддерживается в компании.
+                    <!-- <a href="https://www.owox.ru/" target="_blank"> компании OWOX</a> -->
+                  </p>
+                  <p>2011</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </footer>
+      <!-- End Footer -->
+
+    </main>
+    <!-- End main wrapper -->
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

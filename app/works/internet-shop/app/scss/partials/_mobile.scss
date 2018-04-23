@@ -1,0 +1,16 @@
+.mobile--nav-category {
+	display: none;
+	padding: 6px 7px;
+}
+
+.nav--select-category {
+	width: 65%;
+	float: left;
+
+	select {
+		font: 16px/21px $ArialBold;
+		width: 300px;
+	  display: inline-block;
+	}
+}
+

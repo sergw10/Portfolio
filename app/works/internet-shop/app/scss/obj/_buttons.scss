@@ -1,0 +1,58 @@
+.btn--dotted-line {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	font-size: 13px;
+	line-height: 17px;
+	color: $blue;
+	border-bottom: 1px dashed $blue;
+}
+
+.btn--dotted-line:hover {
+	border-style: solid;
+}
+
+/* For buttons and inputs */
+
+.border--italic {
+	@include box-shadow--outline;
+	@include border-radius--italic;
+}
+
+/* btn gradient */
+
+.btn--grey-gradient {
+	display: inline-block;
+
+  button {
+		@include border-radius--italic;
+	  background: rgba(255,255,255,1);
+	  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 21%, rgba(233,233,233,1) 54%, rgba(255,255,255,1) 100%);
+	  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(21%, rgba(248,248,248,1)), color-stop(54%, rgba(233,233,233,1)), color-stop(100%, rgba(255,255,255,1)));
+	  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 21%, rgba(233,233,233,1) 54%, rgba(255,255,255,1) 100%);
+	  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 21%, rgba(233,233,233,1) 54%, rgba(255,255,255,1) 100%);
+	  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 21%, rgba(233,233,233,1) 54%, rgba(255,255,255,1) 100%);
+	  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 21%, rgba(233,233,233,1) 54%, rgba(255,255,255,1) 100%);
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+		height: 27px;
+		padding: 0 10px;
+
+		span:first-child {
+			margin-right: 6px;
+			color: $blue;
+			font-family: $ArialBold;
+			border-bottom: 1px solid $blue;
+		}
+
+		span {
+			font-size: 15px;
+			line-height: 17px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+	button:hover {
+		background: $grey--light;
+	}
+}

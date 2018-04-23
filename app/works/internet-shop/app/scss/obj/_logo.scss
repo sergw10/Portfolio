@@ -1,0 +1,11 @@
+.logo-wrap {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.logo-img {
+	@include sprite-icons;
+	background-position: -6px -125px;
+	width: 174px;
+	height: 79px;
+}

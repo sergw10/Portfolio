@@ -1,0 +1,182 @@
+.footer {
+	position: relative;
+	z-index: 10;
+	background: #ffffff;
+	border-top: 2px solid #ffffff;
+}
+
+.footer--blue-border {
+	border-top: 4px solid $foot--border-2;
+	margin-bottom: 20px;
+}
+
+.foot--copyright {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.foot-nav--main-menu {
+	margin-bottom: 35px;
+}
+
+.footer--info-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+}
+
+.footer--info-addres {
+	p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	p + a {
+		font: 24px/22px $ArialBold;
+		display: inline-block;
+		margin-bottom: 5px;
+
+		span {
+			font-family: $ArialRegular;
+		}
+	}
+
+	p + a:hover {
+		text-decoration: underline;
+	}
+
+	.btn--dotted-line {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.btn--grey-gradient {
+
+		span:first-child {
+			border-style: dashed;
+
+			a {
+				font: 13px/17px $ArialRegular;
+			}
+		}
+
+		span:hover {
+			border-style: solid;
+		}
+	}
+}
+
+.terms-of-use {
+	margin-top: 40px;
+	display: inline-block;
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+.terms-of-use:hover {
+	color: $red;
+}
+
+
+.footer--work-hour {
+	p {
+		font: 13px/22px $ArialRegular;
+	
+		&:first-child {
+			font-family: $ArialBold;
+		}
+	}
+
+
+	span {
+		display: block;
+		margin: 20px 0 4px;
+	}
+}
+
+.pay-services {
+	@include sprite-icons;
+	background-position: -6px -242px;
+	width: 220px;
+	height: 26px;
+}
+
+.footer--info-socials {
+	div {
+		margin-bottom: 3px;
+
+		a {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 13px;
+			line-height: 20px;
+			color: $blue;
+			text-decoration: underline;
+
+			&:hover {
+				color: $red;
+			}
+		}
+	}
+}
+
+.foot-social {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px 0 0;
+	@include sprite-icons;
+}
+
+.foot-social--fb {
+	background-position: -117px -20px;
+}
+.foot-social--vk {
+	background-position: -243px -66px;
+}
+.foot-social--tw {
+	background-position: -37px -66px;
+}
+
+.owox-info {
+  position: relative;
+	padding-left: 37px;
+
+  p {
+  	font-size: 11px;
+  	line-height: 15px;
+
+	  &:last-child {
+	  	margin-top: 4px;
+	  	color: #999;
+	  }
+
+  	a {
+  		color: $blue;
+  		text-decoration: underline;
+  	}
+  }
+}
+
+.owox-logo {
+	@include sprite-icons;
+	display: inline-block;
+	background-position: -8px -212px;
+	width: 118px;
+	height: 23px;
+	margin-bottom: 5px;
+}
+
+.owox-info:after {
+  display: inline-block;
+	top: -25px;
+	left: 0;
+	width: 1px;
+	height: 160px;
+}
+
+.owox-info--wrap {
+	display: inline-block;
+	max-width: 325px;
+}

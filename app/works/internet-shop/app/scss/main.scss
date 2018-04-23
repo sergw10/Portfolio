@@ -1,0 +1,27 @@
+/* Fonts */
+@import 'fonts/fonts';
+
+/* Utility */
+@import 'utility/reset'; // + box sizing: border-box
+@import 'utility/variables';
+@import 'utility/mixin';
+@import 'utility/classes';
+
+/* Objects */
+@import 'obj/body';
+@import 'obj/logo';
+@import 'obj/menu';
+@import 'obj/buttons';
+@import 'obj/burger-menu';
+
+/* Main styles */
+@import 'partials/header';
+@import 'partials/slider-wrap';
+@import 'partials/slider-main';
+@import 'partials/companies-list';
+@import 'partials/article-productions';
+@import 'partials/footer';
+@import 'partials/mobile';
+
+/* Responsive */
+@import 'partials/responsive';
