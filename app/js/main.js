@@ -10,7 +10,7 @@ $(function () {
   // Animate counter numbers
 
   setTimeout( function () {
-    var arrNum = [0, 80, 82, 65, 87, 84, 63],
+    var arrNum = [0, 80, 82, 65, 87, 80, 63],
         speed = 4900;
 
     for ( var i = 1; i <= 6 ; i++ ) {
@@ -31,7 +31,7 @@ $(function () {
     $('.percent-lines').append('<div></div>');
   }
 
-  var arrOfGreyLines = [4,4,6,3,4,8],
+  var arrOfGreyLines = [4,4,7,3,4,8],
       linesWrapText = '.percent-lines',
       linesWrap = queryAll(linesWrapText);
 
