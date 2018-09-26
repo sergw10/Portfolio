@@ -891,3 +891,13 @@
     margin: 4% 1%;
   }
 }
+
+
+// Delete banners
+
+.cbalink,
+.cumf_bt_form_wrapper,
+#contact_us_mail_feedback,
+body + div {
+  display: none !important;
+}

@@ -723,3 +723,9 @@ p.skill__percentage-wrap {
   .work-preview {
     width: 98%;
     margin: 4% 1%; } }
+
+.cbalink,
+.cumf_bt_form_wrapper,
+#contact_us_mail_feedback,
+body + div {
+  display: none !important; }
