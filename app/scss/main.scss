@@ -1,0 +1,33 @@
+/* Settings */
+@import 'settings/box_model';
+@import 'settings/reset';
+@import 'settings/mixin';
+
+/* Main styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.154;
+  font-weight: 400;
+  color: #363b43;
+}
+
+/* Libs */
+@import 'libs/jquery.mCustomScrollbar';
+
+/* Parts */
+@import 'parts/01_profile_info';
+@import 'parts/02_profile_skills';
+@import 'parts/03_profile_expirience';
+@import 'parts/04_profile_works';
+
+/* Responsive */
+@import 'parts/05_responsive';
+
+/* Delete banners */
+.cbalink,
+.cumf_bt_form_wrapper,
+#contact_us_mail_feedback,
+body + div {
+  display: none !important;
+}

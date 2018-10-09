@@ -25,7 +25,6 @@ $(function () {
   }, 1000);
 
   //-------------------------------------
-
    
   for (var j = 0; j < 24; j++) {
     $('.percent-lines').append('<div></div>');
@@ -46,5 +45,10 @@ $(function () {
           arrOfGreyLinesChange[l].style.backgroundColor = '#e7e7e7';
         }
   }
-
 });
+
+(function($){
+    $(window).on("load",function(){
+        $(".portfolio__profile-info").mCustomScrollbar();
+    });
+})(jQuery);
