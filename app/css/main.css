@@ -59,7 +59,8 @@ body {
   font-size: 13px;
   line-height: 1.154;
   font-weight: 400;
-  color: #363b43; }
+  color: #363b43;
+  min-width: 260px; }
 
 /* Libs */
 /*
@@ -1474,34 +1475,6 @@ yx-axis
   .portfolio__profile-info .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
     background-color: #6a6868; }
 
-.portfolio__close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 35px;
-  height: 35px; }
-  .portfolio__close div {
-    width: 29px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 6px auto; }
-  .portfolio__close div:first-child.active,
-  .portfolio__close div:nth-child(2).active {
-    position: absolute;
-    margin: 0; }
-  .portfolio__close div:first-child.active {
-    -webkit-transform: rotate(-225deg);
-        -ms-transform: rotate(-225deg);
-            transform: rotate(-225deg);
-    top: 16px;
-    left: 5px; }
-  .portfolio__close div:nth-child(2).active {
-    -webkit-transform: rotate(225deg);
-        -ms-transform: rotate(225deg);
-            transform: rotate(225deg);
-    top: 16px;
-    left: 5px; }
-
 .portfolio__profile-img-wrapper {
   width: 150px;
   height: 150px;
@@ -1524,14 +1497,6 @@ yx-axis
 
 .portfolio__profile-contacts-wrapper {
   padding: 30px 0 25px; }
-
-.grey-line {
-  width: 100%;
-  position: relative;
-  left: -8px;
-  margin-bottom: 15px;
-  height: 2px;
-  background-color: #43474f; }
 
 .portfolio__profile-main-contacts img, .portfolio__profile-main-contacts span {
   display: inline-block;
@@ -1571,9 +1536,43 @@ yx-axis
   color: #ffffff;
   padding: 10px 0; }
 
-.portfolio__profile-know-languges h2,
-.portfolio__profile-contacts-wrapper h2 {
+.portfolio__profile-know-languges h2, .portfolio__profile-contacts-wrapper h2 {
   font-weight: 500; }
+
+.portfolio__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px; }
+  .portfolio__close div {
+    width: 29px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px auto; }
+    .portfolio__close div:first-child.active, .portfolio__close div:nth-child(2).active {
+      position: absolute;
+      margin: 0; }
+    .portfolio__close div:first-child.active {
+      -webkit-transform: rotate(-225deg);
+          -ms-transform: rotate(-225deg);
+              transform: rotate(-225deg);
+      top: 16px;
+      left: 5px; }
+    .portfolio__close div:nth-child(2).active {
+      -webkit-transform: rotate(225deg);
+          -ms-transform: rotate(225deg);
+              transform: rotate(225deg);
+      top: 16px;
+      left: 5px; }
+
+.grey-line {
+  width: 100%;
+  position: relative;
+  left: -8px;
+  margin-bottom: 15px;
+  height: 2px;
+  background-color: #43474f; }
 
 .main-section {
   padding: 0px 15px 0 350px; }
@@ -1962,7 +1961,7 @@ p.skill__percentage-wrap {
   margin: 20px 0;
   text-align: center; }
 
-.work-preview {
+.works-preview {
   -webkit-transition: .25s;
   transition: .25s;
   cursor: pointer;
@@ -1976,21 +1975,20 @@ p.skill__percentage-wrap {
   line-height: 0;
   -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.2); }
-  .work-preview a {
+  .works-preview:hover {
+    -webkit-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+            transform: scale(1.08); }
+  .works-preview a {
     width: 100%;
     height: 100%;
     line-height: 0;
     display: inline-block; }
-    .work-preview a img {
+    .works-preview a img {
       width: 100%;
       height: 100%;
       -o-object-fit: contain;
       object-fit: contain; }
-
-.work-preview:hover {
-  -webkit-transform: scale(1.08);
-      -ms-transform: scale(1.08);
-          transform: scale(1.08); }
 
 /* Responsive */
 @media screen and (max-width: 1500px) {
@@ -2013,16 +2011,15 @@ p.skill__percentage-wrap {
 
 @media screen and (max-width: 1370px) {
   .work-preview {
-    width: 47%; }
+    width: 47%;
+    -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3); }
   .skill {
     margin: 20px 0; }
-  .skill__ellipse-white {
-    left: 18px; }
+    .skill__ellipse-white {
+      left: 18px; }
   p.skill__percentage-wrap {
-    left: 58px; }
-  .work-preview {
-    -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3); } }
+    left: 58px; } }
 
 @media screen and (max-width: 1000px) {
   .ellipse-wrapper {
@@ -2031,39 +2028,35 @@ p.skill__percentage-wrap {
 @media screen and (max-width: 900px) {
   .portfolio__profile-info {
     width: 100%;
-    position: relative; }
+    position: relative;
+    padding: 20px 25px 15px; }
     .portfolio__profile-info .grey-line {
       display: none; }
-  .main-section {
-    padding: 0 15px; }
   .portfolio__profile-name {
     text-align: center; }
-  .portfolio__profile-contacts-wrapper,
-  .portfolio__profile-know-languges {
+  .portfolio__profile-contacts-wrapper, .portfolio__profile-know-languges {
     width: 49%;
     display: inline-block;
     vertical-align: top;
     padding: 25px 0 5px;
     text-align: center;
     margin-top: 20px; }
-    .portfolio__profile-contacts-wrapper h2,
-    .portfolio__profile-know-languges h2 {
+    .portfolio__profile-contacts-wrapper h2, .portfolio__profile-know-languges h2 {
       margin: 0 auto 20px; }
-    .portfolio__profile-contacts-wrapper ul, .portfolio__profile-contacts-wrapper p, .portfolio__profile-contacts-wrapper h2,
-    .portfolio__profile-know-languges ul,
-    .portfolio__profile-know-languges p,
-    .portfolio__profile-know-languges h2 {
+    .portfolio__profile-contacts-wrapper ul, .portfolio__profile-contacts-wrapper p, .portfolio__profile-contacts-wrapper h2, .portfolio__profile-know-languges ul, .portfolio__profile-know-languges p, .portfolio__profile-know-languges h2 {
       width: 215px;
       display: inline-block;
       vertical-align: top;
       text-align: left; }
-  ul.portfolio__profile-social-links {
-    display: none; }
   .portfolio__profile-social-links__hidden {
     display: block;
     text-align: center; }
     .portfolio__profile-social-links__hidden .portfolio__profile-social-links {
       display: inherit; }
+  .main-section {
+    padding: 0 15px; }
+  ul.portfolio__profile-social-links {
+    display: none; }
   .work-preview {
     width: 47%;
     margin: 2% 1%; }
@@ -2083,18 +2076,13 @@ p.skill__percentage-wrap {
   .portfolio__profile-img-wrapper {
     width: 100px;
     height: 100px; }
-  .portfolio__profile-contacts-wrapper,
-  .portfolio__profile-know-languges {
+  .portfolio__profile-contacts-wrapper, .portfolio__profile-know-languges {
     width: 100%; }
-    .portfolio__profile-contacts-wrapper ul, .portfolio__profile-contacts-wrapper p, .portfolio__profile-contacts-wrapper h2,
-    .portfolio__profile-know-languges ul,
-    .portfolio__profile-know-languges p,
-    .portfolio__profile-know-languges h2 {
+    .portfolio__profile-contacts-wrapper ul, .portfolio__profile-contacts-wrapper p, .portfolio__profile-contacts-wrapper h2, .portfolio__profile-know-languges ul, .portfolio__profile-know-languges p, .portfolio__profile-know-languges h2 {
       display: block;
       margin: 0 auto;
       text-align: left; }
-    .portfolio__profile-contacts-wrapper h2,
-    .portfolio__profile-know-languges h2 {
+    .portfolio__profile-contacts-wrapper h2, .portfolio__profile-know-languges h2 {
       margin-bottom: 15px;
       text-align: center; }
   .portfolio__profile-know-languges {
@@ -2104,8 +2092,8 @@ p.skill__percentage-wrap {
     display: none; }
   .work-preview {
     height: auto; }
-  .work-preview:first-of-type {
-    margin-top: 0; } }
+    .work-preview:first-of-type {
+      margin-top: 0; } }
 
 @media screen and (max-width: 470px) {
   .work-preview {
