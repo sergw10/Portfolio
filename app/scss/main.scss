@@ -1,3 +1,12 @@
+/* Delete banners */
+body > div:nth-child(1),
+.cbalink,
+.cumf_bt_form_wrapper,
+#contact_us_mail_feedback,
+body + div {
+  display: none !important;
+}
+
 /* Settings */
 @import 'settings/box_model';
 @import 'settings/reset';
@@ -24,11 +33,3 @@ body {
 
 /* Responsive */
 @import 'parts/05_responsive';
-
-/* Delete banners */
-.cbalink,
-.cumf_bt_form_wrapper,
-#contact_us_mail_feedback,
-body + div {
-  display: none !important;
-}

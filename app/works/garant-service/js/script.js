@@ -1,5 +1,5 @@
 window.onload = function () {
-
+    
 /* счетчик на главной */
     
     var time_main = setInterval(time, 1000);
