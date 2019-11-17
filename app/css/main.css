@@ -3,7 +3,7 @@ body > div:nth-child(1),
 .cbalink,
 .cumf_bt_form_wrapper,
 #contact_us_mail_feedback,
-body + div {
+body + div, body ~ div {
   display: none !important; }
 
 /* Settings */

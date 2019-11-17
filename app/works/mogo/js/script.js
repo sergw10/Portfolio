@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-// OWL slider settings
+// OWL slider utility
  
     $("#owl-example").owlCarousel({
     	navigation : true, // Show next and prev buttons
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   	$('.owl-prev, .owl-next').html("");
 
-    // OWL slider settings
+    // OWL slider utility
 
     $('.slid_slick').slick();
 

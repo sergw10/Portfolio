@@ -7,7 +7,7 @@ $(document).ready(function(){
         return false;
     });
 
-	// Slick settings
+	// Slick utility
 
 	$('#slider').slick({ 
 		dots: true,

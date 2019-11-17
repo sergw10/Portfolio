@@ -1,6 +1,6 @@
 ;$( function() {
 
-	// Slider settings
+	// Slider utility
 	$('.slider-wrapper').slick({
 		infinite: true,
     slidesToShow: 4,
