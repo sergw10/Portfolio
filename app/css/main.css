@@ -1852,12 +1852,12 @@ p.skill__percentage-wrap {
 
 .experince__wrapper {
   margin: 10px 0; }
+  .experince__wrapper p {
+    font-size: 16px; }
   .experince__wrapper div {
-    font-size: 16px;
     padding: 5px 0;
     line-height: 1.48; }
     .experince__wrapper div b {
-      font-size: 18px;
       font-weight: 600; }
       .experince__wrapper div b a {
         color: inherit;
@@ -1865,12 +1865,13 @@ p.skill__percentage-wrap {
         .experince__wrapper div b a:hover {
           text-decoration: underline; }
 
+.experince__company-name {
+  font-size: 22px; }
+
 .expirience_time {
   font-size: 13px;
   font-style: italic;
   margin-bottom: 5px; }
-  .expirience_time b {
-    font-size: inherit !important; }
 
 .works-wrapper {
   margin: 20px 0;

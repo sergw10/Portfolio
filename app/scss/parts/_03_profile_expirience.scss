@@ -1,13 +1,15 @@
 .experince__wrapper {
   margin: 10px 0;
 
-  div {
+  p {
     font-size: 16px;
+  }
+
+  div {
     padding: 5px 0;
     line-height: 1.48;
 
     b {
-      font-size: 18px;
       font-weight: 600;
 
       a {
@@ -22,12 +24,12 @@
   }
 }
 
+.experince__company-name {
+  font-size: 22px;
+}
+
 .expirience_time {
   font-size: 13px;
   font-style: italic;
-  margin-bottom: 5px; 
-
-  b {
-    font-size: inherit !important;
-  }
+  margin-bottom: 5px;
 }
