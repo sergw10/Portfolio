@@ -1,5 +1,5 @@
 $(function () {
-  
+
   'use strict'
 
   var d = document,
@@ -25,7 +25,7 @@ $(function () {
   }, 1000);
 
   //-------------------------------------
-   
+
   for (var j = 0; j < 24; j++) {
     $('.percent-lines').append('<div></div>');
   }
@@ -35,7 +35,7 @@ $(function () {
       linesWrap = queryAll(linesWrapText);
 
   for (var i = 0; i < 6; i++) {
-    
+
     var arrAllLines = linesWrap[i].childNodes,
         numGreyLines = arrOfGreyLines[i],
         arrAllLinesCopy = Array.prototype.slice.call(arrAllLines),
